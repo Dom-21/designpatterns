@@ -1,7 +1,7 @@
-# Refactored User Service with Design Patterns
+# Standard User Service with Design Patterns
 
 ## Overview
-This is a production-ready refactored implementation of the User Service that incorporates multiple design patterns to improve code quality, maintainability, security, and scalability.
+This is a production-ready implementation of the User Service that incorporates multiple design patterns to improve code quality, maintainability, security, and scalability.
 
 ## Design Patterns Implemented
 

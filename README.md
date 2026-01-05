@@ -173,17 +173,17 @@ public interface UserRepository extends JpaRepository<User, Long>,
         └───────────────┼───────────────┘
                         │
 ┌───────────────────────▼─────────────────────────────────┐
-│                Repository Layer                       │
-│               (UserRepository.java)                      │
-│              - Database operations                       │
-│              - JPA queries                               │
+│                Repository Layer                         │
+│               (UserRepository.java)                     │
+│              - Database operations                      │
+│              - JPA queries                              │
 └───────────────────────┬─────────────────────────────────┘
                         │
 ┌───────────────────────▼─────────────────────────────────┐
-│                      Entity Layer                        │
-│                  (User.java)                             │
-│              - Domain model                              │
-│              - Builder pattern                           │
+│                      Entity Layer                       │
+│                  (User.java)                            │
+│              - Domain model                             │
+│              - Builder pattern                          │
 └─────────────────────────────────────────────────────────┘
 ```
 
